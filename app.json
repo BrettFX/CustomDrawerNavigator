@@ -24,7 +24,11 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.trietech.customappnavigator",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.trietech.customappnavigator"
     }
   }
 }
