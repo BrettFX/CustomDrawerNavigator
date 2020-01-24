@@ -32,7 +32,7 @@ const AppDrawerNavigator = createDrawerNavigator({
   Settings: SettingsScreen
 },{
   contentComponent: CustomDrawerComponent,
-  drawerWidth: width,
+  drawerWidth: width*0.75,
   contentOptions: {
     activeTintColor: 'orange'
   }
